@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://danielbarboza.dev/sitemap.xml
+
+User-agent: Googlebot-Image
+Disallow: /img
