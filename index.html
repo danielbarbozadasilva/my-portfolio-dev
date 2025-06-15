@@ -1,541 +1,516 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1, user-scalable=yes" name="viewport" />
+        <meta content="Daniel Barboza" name="author" />
+        <meta content="daniel80barboza@gmail.com" name="reply-to" />
+        <meta content="index, follow" name="robots" />
+        <meta content="Portfólio de Daniel Barboza - Desenvolvedor Full-Stack especializado em React, Node.js, TypeScript, JavaScript e mais. Confira projetos e experiências." name="description" />
+        <title>Daniel - Desenvolvedor Full-Stack | Portfólio</title>
+        <meta content="Daniel - Desenvolvedor Full-Stack" property="og:title" />
+        <meta content="website" property="og:type" />
+        <meta content="https://danielbarboza.dev/" property="og:url" />
+        <meta content="Conheça os projetos e formação de Daniel, Desenvolvedor Full-Stack." property="og:description" />
+        <meta content="https://danielbarboza.dev/img/header.jpg" property="og:image" />
+        <link href="https://danielbarboza.dev/" rel="canonical" />
+        <meta content="summary_large_image" name="twitter:card" />
+        <meta content="Daniel - Desenvolvedor Full-Stack" name="twitter:title" />
+        <meta content="Conheça os projetos e formação de Daniel, Desenvolvedor Full-Stack." name="twitter:description" />
+        <meta content="https://danielbarboza.dev/img/header.jpg" name="twitter:image" />
+        <link href="./fontawesome/css/all.min.css" rel="stylesheet" type="text/css" />
+        <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css" rel="stylesheet" />
+        <link as="style" href="./css/bootstrap.min.css" onload="this.rel='stylesheet'" rel="preload" />
+        <link as="style" href="./css/style.css" onload="this.rel='stylesheet'" rel="preload" />
+        <noscript>
+            <link href="./css/bootstrap.min.css" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,500,600,700,800&display=swap" rel="stylesheet" />
+        </noscript>
+        <link rel="stylesheet" href="https://use.typekit.net/ldn4jqy.css" />
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Daniel Barboza",
+                "jobTitle": "Full-Stack Developer",
+                "url": "https://danielbarboza.dev",
+                "sameAs": ["https://www.linkedin.com/in/daniel-barboza-da-silva-5440351b7/", "https://github.com/danielbarbozadasilva"],
+                "description": "Desenvolvedor Full-Stack especializado em projetos com React, Node.js, Express.js, TypeScript e mais."
+            }
+        </script>
+        <style>
+            body {
+                @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+                font-family: "Nunito", sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;
+                font-weight: 400;
+            }
+        </style>
+    </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="author" content="Daniel Barboza">
-  <meta name="reply-to" content="daniel80barboza@gmail.com">
-  <meta name="robots" content="index, follow">
-  <meta name="keywords"
-    content="portfólio, desenvolvimento web, full-stack, react, node, javascript, typescript, angular, Daniel Barboza">
-  <meta name="description"
-    content="Portfólio de Daniel Barboza - Desenvolvedor Full-Stack especializado em React, Node.js, TypeScript, JavaScript e mais. Confira projetos e experiências.">
-  <title>Daniel - Desenvolvedor Full-Stack | Portfólio</title>
-  <meta property="og:title" content="Daniel - Desenvolvedor Full-Stack">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://danielbarboza.dev/">
-  <meta property="og:description" content="Conheça os projetos e formação de Daniel, Desenvolvedor Full-Stack.">
-  <meta property="og:image" content="https://danielbarboza.dev/img/header.jpg">
-  <link rel="canonical" href="https://danielbarboza.dev/">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Daniel - Desenvolvedor Full-Stack">
-  <meta name="twitter:description" content="Conheça os projetos e formação de Daniel, Desenvolvedor Full-Stack.">
-  <meta name="twitter:image" content="https://danielbarboza.dev/img/header.jpg">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800&display=swap" rel="preload"
-    as="style" onload="this.rel='stylesheet'">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100i,300,400,600,700&display=swap" rel="preload"
-    as="style" onload="this.rel='stylesheet'">
-  <link rel="stylesheet" href="./fontawesome/css/all.min.css" type="text/css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
-  <link rel="preload" href="./css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
-  <link rel="preload" href="./css/style.css" as="style" onload="this.rel='stylesheet'">
-  <noscript>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/helpers.css">
-    <link rel="stylesheet" href="./css/style.css">
-  </noscript>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Daniel Barboza",
-    "jobTitle": "Full-Stack Developer",
-    "url": "https://danielbarboza.dev",
-    "sameAs": [
-      "https://www.linkedin.com/in/daniel-barboza-da-silva-5440351b7/",
-      "https://github.com/danielbarbozadasilva"
-    ],
-    "description": "Desenvolvedor Full-Stack especializado em projetos com React, Node.js, Express.js, TypeScript e mais."
-  }
-  </script>
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg atual">
-    <div class="container">
-      <a class="logo" href="#" aria-label="Página inicial">Daniel</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="icon-bar"><i class="fas fa-bars"></i></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto text-center">
-          <li class="nav-item"><a class="nav-link active" href="#" data-scroll-nav="0">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="1">Sobre</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="2">Formação</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="3">Portfólio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="4">Contato</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <header class="header posicionamento bg-img fade-element fade-in-up" data-scroll-index="0" data-overlay-dark="5"
-    data-background="img/header.jpg" data-stellar-background-ratio="0.5">
-    <div class="container">
-      <div class="row">
-        <div class="vertical-center full-width text-center caption">
-          <h1 class="text-effect">Daniel Barboza - Full-Stack Developer</h1>
-          <h2 class="cd-headline clip text-effect">
-            <span class="blc text-effect">MERN Stack</span>
-            <span class="cd-words-wrapper text-effect">
-              <b class="text-effect">Express.js</b>
-              <b class="text-effect">LitElement</b>
-              <b class="text-effect">Angular.js</b>
-              <b class="text-effect">TypeScript</b>
-              <b class="text-effect">React.js</b>
-              <b class="text-effect">React Native</b>
-              <b class="is-visible text-effect">Node.js</b>
-              <b class="text-effect">MongoDB</b>
-              <b class="text-effect">MySQL</b>
-              <b class="text-effect">Oracle</b>
-            </span>
-          </h2>
-          <div class="contatos-sociais-container">
-            <div class="lista-icones-contato">
-              <a href="https://www.linkedin.com/in/daniel-barboza-da-silva-5440351b7/" target="_blank" rel="noopener"
-                aria-label="LinkedIn de Daniel"><i class="fab fa-linkedin"></i></a>
-              <a href="https://api.whatsapp.com/send?phone=5521982187814" target="_blank" rel="noopener"
-                aria-label="WhatsApp de Daniel"><i class="fab fa-whatsapp-square"></i></a>
-              <a href="https://github.com/danielbarbozadasilva?tab=repositories" target="_blank" rel="noopener"
-                aria-label="GitHub de Daniel"><i class="fab fa-github"></i></a>
-            </div>
-          </div>
-          <hr>
-          <h2 class="textoInicialSub">Full-Stack Developer</h2>
-        </div>
-      </div>
-    </div>
-    <div class="arrow">
-      <a href="#" data-scroll-nav="1" aria-label="Role para ver mais sobre Daniel">
-        <i class="fas fa-chevron-down"></i>
-      </a>
-    </div>
-  </header>
-  <main>
-    <section id="cont01" class="apresentacao section-padding fade-element fade-in-up" data-scroll-index="1">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5">
-            <div class="apresentacao-img mb-md50">
-              <img class="apresentacaoImagem" src="img/minha3.jpg" alt="Foto de Daniel Barboza" loading="lazy">
-            </div>
-          </div>
-          <div class="col-lg-7">
-            <div class="content">
-              <h2 class="titulo titulo-left">Sobre Mim</h2>
-              <p>Olá, me chamo <strong>Daniel Barboza da Silva</strong>, tenho 27 anos. Sou Bacharel em Sistemas da
-                Informação e Pós-Graduado em Desenvolvimento Full-Stack, onde conquistei o <strong>melhor desempenho
-                  acadêmico</strong> (CR 9,3 em 2018 e CR 9,2 em 2024). Realizei estágio na <strong>GLR Consultoria em
-                  Sistemas - POPULIS</strong> por mais de 1 ano. Atualmente, atuo como <strong>Desenvolvedor
-                  Front-End</strong>. Ao longo dos estudos e trabalhos, desenvolvi sólidos conhecimentos em JavaScript,
-                TypeScript, ReactJS, React Native, LitElement, Node.js, Express.js, bancos MongoDB e MySQL.<br><br>Quer
-                saber mais sobre mim? Veja meu currículo!</p>
-              <div class="habilidades-container">
-                <div class="logos-habilidades">
-                  <a href="https://pt-br.reactjs.org/" target="_blank" rel="noopener" aria-label="ReactJS"><img
-                      class="expand-medium" src="./img/react.png" alt="Logo ReactJS" loading="lazy"></a>
-                  <a href="https://nodejs.org/" target="_blank" rel="noopener" aria-label="Node.js"><img class="expand"
-                      src="./img/node.png" alt="Logo Node.js" loading="lazy"></a>
-                  <a href="https://expressjs.com/" target="_blank" rel="noopener" aria-label="Express.js"><img
-                      class="expand" src="./img/express.png" alt="Logo Express.js" loading="lazy"></a>
-                  <a href="https://www.jira.com/" target="_blank" rel="noopener" aria-label="MySQL"><img class="expand"
-                      src="./img/jira.png" alt="Logo MySQL" loading="lazy"></a>
-                  <a href="https://www.mongodb.com/" target="_blank" rel="noopener" aria-label="MongoDB"><img
-                      class="expand" src="./img/mongo.png" alt="Logo MongoDB" loading="lazy"></a>
-                  <a href="https://www.mysql.com/" target="_blank" rel="noopener" aria-label="MySQL"><img class="expand"
-                      src="./img/mysql.png" alt="Logo MySQL" loading="lazy"></a>
-                  <a href="https://aws.amazon.com/" target="_blank" rel="noopener" aria-label="Angular"><img
-                      class="expand" src="./img/aws.png" alt="Logo AWS" loading="lazy"></a>
-                  <a href="https://angular.dev/" target="_blank" rel="noopener" aria-label="Git"><img
-                      class="expand-medium" src="./img/git.png" alt="Logo Git" loading="lazy"></a>
-                  <a href="https://getbootstrap.com" target="_blank" rel="noopener" aria-label="Bootstrap"><img
-                      class="expand-medium" src="./img/bootstrap.png" alt="Logo Bootstrap" loading="lazy"></a>
-                  <a href="https://dev.w3.org/html5/html-author/" target="_blank" rel="noopener" aria-label="HTML5"><img
-                      class="expand-medium" src="./img/html5.png" alt="Logo HTML5" loading="lazy"></a>
-                  <a href="https://devdocs.io/css/" target="_blank" rel="noopener" aria-label="CSS3"><img
-                      class="expand-medium" src="./img/css.png" alt="Logo CSS3" loading="lazy"></a>
-                  <a href="https://developer.mozilla.org/pt-BR/docs/Web/TypeScript" target="_blank" rel="noopener"
-                    aria-label="TypeScript"><img src="./img/typescript.png" alt="Logo TypeScript" loading="lazy"></a>
-                  <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" rel="noopener"
-                    aria-label="JavaScript"><img src="./img/javascript.png" alt="Logo JavaScript" loading="lazy"></a>
-                  <a href="https://bitbucket.org/product/" target="_blank" rel="noopener" aria-label="Bitbucket"><img
-                      src="./img/bitbucket.png" alt="Logo Bitbucket" loading="lazy"></a>
-                  <a href="https://www.docker.com/" target="_blank" rel="noopener" aria-label="Bitbucket"><img
-                      src="./img/docker.png" alt="Logo Docker" loading="lazy"></a>
-                  <a href="https://angular.dev/" target="_blank" rel="noopener" aria-label="JavaScript"><img
-                      src="./img/angular.png" alt="Logo JavaScript" loading="lazy"></a>
-                  <a href="https://www.oracle.com/" target="_blank" rel="noopener" aria-label="Oracle"><img
-                      class="expand" src="./img/oracle.png" alt="Logo Oracle" loading="lazy"></a>
-                  <a href="https://tailwindcss.com/" target="_blank" rel="noopener" aria-label="Tailwind css"><img
-                      src="./img/tailwind-css.svg" alt="Logo Tailwind css" loading="lazy"></a>
-                  <a href="https://www.swagger.com/" target="_blank" rel="noopener" aria-label="Swegger"><img
-                      src="./img/swagger.svg" alt="Logo Swegger" loading="lazy"></a>
+    <body>
+        <nav class="navbar navbar-expand-lg atual">
+            <div class="container">
+                <a aria-label="Página inicial" class="logo" href="#">Daniel</a>
+                <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+                    <span class="icon-bar"><i class="fas fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-scroll-nav="0" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll-nav="1" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll-nav="2" href="#formacao">Formação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll-nav="3" href="#portifolio">Portfólio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll-nav="4" href="#contato-section">Contato</a>
+                        </li>
+                    </ul>
                 </div>
-              </div>
-              <span class="buton text-center"><a href="#" data-scroll-nav="4" front="Contato"
-                  back="&#xf1d8;"></a></span>
-              <span class="buton buton-bord text-center"><a href="./docs/cvdaniel.pdf" front="Currículo" back="&#xf019;"
-                  download="CV.pdf"></a></span>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="resume bg-img fade-element fade-in-up" data-overlay-dark="8" data-scroll-index="2"
-      data-background="img/b5.jpg" data-stellar-background-ratio="0.5">
-      <div class="container">
-        <div class="row">
-          <div class="container">
-            <h2 class="titulo-secundario">Formação & Experiência</h2>
-            <div class="row">
-              <div class="col-lg-6 col-md-6">
-                <div class="item mb-md50">
-                  <h3 class="titulo-left"><i class="fas fa-graduation-cap mr-2"></i>Formação Acadêmica</h3>
-                  <ul>
-                    <li class="fade-element fade-in-up">
-                      <h6>Instituto INFNET</h6>
-                      <p class="infoDev">Pós-Graduação em Desenvolvimento Full-Stack</p>
-                    </li>
-                    <li class="fade-element fade-in-up">
-                      <h6>Universidade Estácio de Sá</h6>
-                      <p class="infoDev">Cursando Ciências da Computação</p>
-                    </li>
-                    <li class="fade-element fade-in-up">
-                      <h6>Universidade Estácio de Sá</h6>
-                      <p class="infoDev">Bacharel em Sistemas da Informação</p>
-                    </li>
-                    <li class="fade-element fade-in-up">
-                      <h6>INSTITUTO INFNET</h6>
-                      <p class="infoDev">INFNET TRAINING - Desenvolvedor Front-End</p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6">
-                <div class="item">
-                  <h3 class="titulo-left"><i class="fas fa-briefcase mr-2"></i>Experiência Profissional</h3>
-                  <ul>
-                    <li class="fade-element fade-in-up">
-                      <h6>GLR CONSULTORIA EM SISTEMAS (POPULIS)</h6>
-                      <p class="infoDev">Desenvolvedor Front-End Trainee<br>Junho/2024 - Atual</p>
-                    </li>
-                    <li class="fade-element fade-in-up">
-                      <h6>GLR CONSULTORIA EM SISTEMAS (POPULIS)</h6>
-                      <p class="infoDev">Estágio Desenvolvedor Web<br>Abril/2023 - Junho/2024</p>
-                    </li>
-                    <li class="fade-element fade-in-up">
-                      <h6>AGÊNCIA VIRTA</h6>
-                      <p class="infoDev">DESENVOLVEDOR FRONT-END FREELANCER<br>Outubro/2022 - Janeiro/2023</p>
-                    </li>
-                    <li class="fade-element fade-in-up">
-                      <h6>Projetos Freelancer / Acadêmicos</h6>
-                      <p class="infoDev">Desenvolvimento de sistemas completos como:</p>
-                      <p>Raio-x Setorial, PrimeTech E-commerce, Plataforma Freelancer, Awesome Invest, Espaço Kids,
-                        Regale Restaurante, Websites (Cardoso Restaurante, Studio Yoga).</p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="cont04" class="portfolio section-padding container-projetos fade-element fade-in-up"
-      data-scroll-index="3">
-      <div class="container">
-        <div class="row secao-potfolio full-width">
-          <h2 class="titulo-portfolio">Meu Portfólio</h2>
-        </div>
-        <div class="row fade-element fade-in-up">
-          <div class="col-lg-6">
-            <div class="content">
-              <h3 class="titulo titulo-left">PrimeTech E-commerce</h3>
-              <p><strong>Descrição do projeto:</strong><br>O Projeto PrimeTech E-commerce consiste em um sistema web de
-                comércio eletrônico para produtos de informática. Permite gerenciamento de estoque pelo administrador,
-                compras e avaliações de produtos pelos clientes.<br><br><strong>Back-end:</strong> Node.js, Express.js,
-                MongoDB, PagSeguro, Swagger, Jest e Supertest.<br><strong>Front-end:</strong> React.js (JavaScript),
-                Material UI, Styled-components, Redux.<br><strong>Aplicativo:</strong> React Native (JavaScript), Redux,
-                Styled-components.</p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="apresentacao-img mb-md50">
-              <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/bjIXVd6zn9Y" title="Projeto Primetech Ecommerce"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
-              </div>
-            </div>
-            <p class="download">
-              <a href="https://github.com/danielbarbozadasilva/ecommerce-nodejs-api" target="_blank" rel="noopener"><i
-                  class="devicon-github-original"></i>Back-end</a>
-              <a href="https://github.com/danielbarbozadasilva/ecommerce-frontend-react" target="_blank"
-                rel="noopener"><i class="devicon-github-original"></i>Front-end</a>
-              <a href="https://github.com/danielbarbozadasilva/ecommerce-react-native" target="_blank" rel="noopener"><i
-                  class="devicon-github-original"></i>Aplicativo</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div id="container-background" class="fade-element fade-in-up">
-      <div class="container container-projetos">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="content">
-              <h3 class="titulo-secundario titulo-left">Projeto Freelancer</h3>
-              <p><strong>Descrição do projeto:</strong><br>O projeto Freelancer consiste em um sistema que conecta
-                profissionais a clientes em busca de serviços. Possui gerenciamento de serviços, avaliações e
-                transações.<br><br><strong>Back-end:</strong> API REST em TypeScript, Node.js, Express.js, MongoDB,
-                Docker, Amazon S3, EmailTrap, Stripe, Swagger, Jest.<br><strong>Front-end:</strong> React.js
-                (TypeScript), responsividade, Material UI, Styled-components, Reduxjs/toolkit.</p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="apresentacao-img mb-md50">
-              <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/MS3qCxZEBds?si=fnhaMMGsawf4_419"
-                  title="YouTube video - Projeto Freelancer"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-            </div>
-            <p class="download">
-              <a href="https://github.com/danielbarbozadasilva/freelancer-service-backend-solid" target="_blank"
-                rel="noopener"><i class="devicon-github-original"></i>Back-end</a>
-              <a href="https://github.com/danielbarbozadasilva/freelancer-service-frontend" target="_blank"
-                rel="noopener"><i class="devicon-github-original"></i>Front-end</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="fade-element fade-in-up">
-      <div class="container container-projetos">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="content">
-              <h3 class="titulo titulo-left">Awesome Invest</h3>
-              <p><strong>Descrição do projeto:</strong><br>Sistema de gestão financeira com listagem de ativos de
-                mercado, compras e gerenciamento.<br><strong>Back-end:</strong> Node.js, Express.js, MySQL (Sequelize),
-                Swagger, Jest, Supertest.<br><strong>Front-end:</strong> React.js (JavaScript), Material UI,
-                Styled-components, Redux.<br><strong>Aplicativo:</strong> React Native (TypeScript), Expo, Redux,
-                Styled-components.</p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="apresentacao-img mb-md50">
-              <div class="video-container">
-                <script src="https://fast.wistia.com/embed/medias/o4oh1sr92g.jsonp" async></script>
-                <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
-                <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
-                  <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
-                    <div class="wistia_embed wistia_async_o4oh1sr92g seo=false videoFoam=true"
-                      style="height:100%;position:relative;width:100%;">
-                      <div class="wistia_swatch"
-                        style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;width:100%;">
-                        <img src="https://fast.wistia.com/embed/medias/o4oh1sr92g/swatch"
-                          style="filter:blur(5px);height:100%;object-fit:contain;width:100%;"
-                          alt="Awesome Invest Apresentação" aria-hidden="true"
-                          onload="this.parentNode.style.opacity=1;">
-                      </div>
+        </nav>
+        <header class="header posicionamento bg-img fade-element fade-in-up" data-background="img/header.jpg" data-overlay-dark="5" data-scroll-index="0" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row">
+                    <div class="vertical-center full-width text-center caption">
+                        <h1 class="text-name">Daniel Barboza - Full-Stack Developer</h1>
+                        <h2 class="cd-headline clip text-effect">
+                            <span class="blc text-effect">MERN Stack</span>
+                            <span class="cd-words-wrapper text-effect">
+                                <b class="text-effect">Express.js</b>
+                                <b class="text-effect">LitElement</b>
+                                <b class="text-effect">Angular.js</b>
+                                <b class="text-effect">TypeScript</b>
+                                <b class="text-effect">React.js</b>
+                                <b class="text-effect">React Native</b>
+                                <b class="is-visible text-effect">Node.js</b>
+                                <b class="text-effect">MongoDB</b>
+                                <b class="text-effect">MySQL</b>
+                                <b class="text-effect">Oracle</b>
+                            </span>
+                        </h2>
+                        <div class="contatos-sociais-container">
+                            <div class="lista-icones-contato">
+                                <a aria-label="LinkedIn de Daniel" href="https://www.linkedin.com/in/daniel-barboza-da-silva-5440351b7/" rel="noopener" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a aria-label="WhatsApp de Daniel" href="https://api.whatsapp.com/send?phone=5521982187814" rel="noopener" target="_blank"><i class="fab fa-whatsapp-square"></i></a>
+                                <a aria-label="GitHub de Daniel" href="https://github.com/danielbarbozadasilva?tab=repositories" rel="noopener" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <hr />
+                        <h2 class="textoInicialSub">Full-Stack Developer</h2>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-            <p class="download">
-              <a href="https://github.com/danielbarbozadasilva/financial-system-backend.git" target="_blank"
-                rel="noopener"><i class="devicon-github-original"></i>Back-end</a>
-              <a href="https://github.com/danielbarbozadasilva/financial-system-frontend" target="_blank"
-                rel="noopener"><i class="devicon-github-original"></i>Front-end</a>
-              <a href="https://github.com/danielbarbozadasilva/app-financial-React-Native" target="_blank"
-                rel="noopener"><i class="devicon-github-original"></i>Aplicativo</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="container-background" class="fade-element fade-in-up">
-      <div class="container container-projetos">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="content">
-              <h3 class="titulo-secundario titulo-left">Projeto Espaço Kids</h3>
-              <p><strong>Descrição do projeto:</strong><br>Otimizar inscrições em oficinas, gerenciar cadastro das
-                oficinas, e fornecer lista de participantes para o administrador.<br><strong>Back-end:</strong> Node.js,
-                Express.js, MySQL.<br><strong>Front-end:</strong> React.js (JavaScript), Material UI, Styled-components,
-                Redux.</p>
+            <div class="arrow">
+                <a aria-label="Role para ver mais sobre Daniel" data-scroll-nav="1" href="#">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
             </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="apresentacao-img mb-md50">
-              <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/pI2Q6lTFFA8?si=kR_GeZFfIcsYv59t" title="Projeto Espaço Kids"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-            </div>
-            <p class="download">
-              <a href="https://github.com/danielbarbozadasilva/projeto-espaco-kids-frontend-daniel" target="_blank"
-                rel="noopener"><i class="devicon-github-original"></i>Front-end</a>
-              <a href="https://github.com/danielbarbozadasilva/projeto-3-backend-espa-o-kids" target="_blank"
-                rel="noopener"><i class="devicon-github-original"></i>Back-end</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="fade-element fade-in-up">
-      <div class="container container-projetos">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="content">
-              <h3 class="titulo titulo-left">Regale - gestão de confeitarias</h3>
-              <p><strong>Descrição do projeto:</strong><br>Divulgar e gerenciar estabelecimentos gastronômicos
-                iniciantes, com categorias, fornecedores e clientes.<br><strong>Back-end:</strong> Node.js, Express.js,
-                MongoDB.<br><strong>Front-end:</strong> React.js (JavaScript), Material UI, Styled-components, Redux.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="apresentacao-img mb-md50">
-              <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/1Y5TIxucliU" title="Regale - Gestão de confeitarias"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
-              </div>
-            </div>
-            <p class="download">
-              <a href="https://github.com/danielbarbozadasilva/system-management-backend.git" target="_blank"
-                rel="noopener"><i class="devicon-github-original"></i>Back-end</a>
-              <a href="https://github.com/danielbarbozadasilva/system-management-frontend.git" target="_blank"
-                rel="noopener"><i class="devicon-github-original"></i>Front-end</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="container-background" class="space fade-element fade-in-up">
-      <div class="container container-projetos">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="content">
-              <h3 class="titulo-secundario titulo-left">Website - Cardoso Restaurante</h3>
-              <p><strong>Descrição do projeto:</strong><br>Site onepage para apresentar história, local e cardápio do
-                estabelecimento. Layout mobile first.</p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="apresentacao-img mb-md50">
-              <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/YiXayOKYG5o" title="Cardoso Restaurante"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
-              </div>
-            </div>
-            <p class="download">
-              <a href="https://github.com/danielbarbozadasilva/web-site-restaurant-cardoso" target="_blank"
-                rel="noopener"><i class="devicon-github-original"></i>Repositório</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container container-projetos fade-element fade-in-up">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="content">
-            <h3 class="titulo titulo-left">Website - Studio Yoga</h3>
-            <p><strong>Descrição do projeto:</strong><br>Site onepage para divulgação de horários, professores e livros
-              sobre Yoga. Layout mobile first.</p>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="apresentacao-img mb-md50">
-            <div class="video-container">
-              <iframe src="https://www.youtube.com/embed/Y5A1jIZFw-Q?si=lEYyLqbBPIr1IG3M" title="Studio Yoga"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-          </div>
-          <p class="download">
-            <a href="https://github.com/danielbarbozadasilva/web-site-restaurant-cardoso" target="_blank"
-              rel="noopener"><i class="devicon-github-original"></i>Repositório</a>
-          </p>
-        </div>
-      </div>
-    </div>
-    <section class="secao-formulario-contato section-padding bg-img fade-element fade-in-up" id="contato-section"
-      data-overlay-dark="8" data-background="img/b5.jpg" data-scroll-index="4">
-      <div class="container">
-        <div class="row">
-          <div class="contato-cabecalho full-width">
-            <h2 class="titulo-portfolio">Entre em contato</h2>
-          </div>
-          <form class="form-contato full-width" id="formulario" method="post" action="envia-email.php">
-            <div class="contato-messages"></div>
-            <div class="form-controls-wrapper">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input id="form_name" type="text" name="tnome" placeholder="Nome completo *" required
-                      aria-required="true">
-                  </div>
+        </header>
+        <main>
+            <section class="apresentacao section-padding fade-element fade-in-up" data-scroll-index="1" id="sobre">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="apresentacao-img mb-md50">
+                                <img alt="Foto de Daniel Barboza" class="apresentacaoImagem" loading="lazy" src="img/minha3.jpg" />
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="content">
+                                <h2 class="titulo titulo-left">Sobre Mim</h2>
+                                <p>
+                                    Olá, me chamo <strong>Daniel Barboza da Silva</strong>, tenho 28 anos. Sou Bacharel em Sistemas da Informação e Pós-Graduado em Desenvolvimento Full-Stack, onde conquistei o <strong>melhor desempenho acadêmico</strong> (CR 9,3 em 2018 e CR 9,2 em 2024). Realizei estágio na <strong>GLR Consultoria em Sistemas - POPULIS</strong> por mais de 1 ano. Atualmente, atuo como <strong>Desenvolvedor Front-End</strong>. Ao longo dos estudos e trabalhos, desenvolvi sólidos
+                                    conhecimentos em JavaScript, TypeScript, ReactJS, React Native, LitElement, Node.js, Express.js, bancos MongoDB e MySQL.<br /><br />Quer saber mais sobre mim? Veja meu currículo!
+                                </p>
+                                <div class="habilidades-container">
+                                    <div class="logos-habilidades">
+                                        <a aria-label="ReactJS" href="https://pt-br.reactjs.org/" rel="noopener" target="_blank"><img alt="Logo ReactJS" class="medium" loading="lazy" src="./img/react.png" /></a>
+                                        <a aria-label="Node.js" href="https://nodejs.org/" rel="noopener" target="_blank"><img alt="Logo Node.js" class="expand" loading="lazy" src="./img/node.png" /></a>
+                                        <a aria-label="Express.js" href="https://expressjs.com/" rel="noopener" target="_blank"><img alt="Logo Express.js" class="expand" loading="lazy" src="./img/express.png" /></a>
+                                        <a aria-label="MySQL" href="https://www.jira.com/" rel="noopener" target="_blank"><img alt="Logo MySQL" class="expand" loading="lazy" src="./img/jira.png" /></a>
+                                        <a aria-label="MongoDB" href="https://www.mongodb.com/" rel="noopener" target="_blank"><img alt="Logo MongoDB" class="expand" loading="lazy" src="./img/mongo.png" /></a>
+                                        <a aria-label="MySQL" href="https://www.mysql.com/" rel="noopener" target="_blank"><img alt="Logo MySQL" class="expand" loading="lazy" src="./img/mysql.png" /></a>
+                                        <a aria-label="Angular" href="https://aws.amazon.com/" rel="noopener" target="_blank"><img alt="Logo AWS" loading="lazy" src="./img/aws.png" /></a>
+                                        <a aria-label="Git" href="https://angular.dev/" rel="noopener" target="_blank"><img alt="Logo Git" loading="lazy" src="./img/git.png" /></a>
+                                        <a aria-label="Bootstrap" href="https://getbootstrap.com" rel="noopener" target="_blank"><img alt="Logo Bootstrap" loading="lazy" src="./img/bootstrap.png" /></a>
+                                        <a aria-label="HTML5" href="https://dev.w3.org/html5/html-author/" rel="noopener" target="_blank"><img alt="Logo HTML5" loading="lazy" src="./img/html5.png" /></a>
+                                        <a aria-label="CSS3" href="https://devdocs.io/css/" rel="noopener" target="_blank"><img alt="Logo CSS3" loading="lazy" src="./img/css.png" /></a>
+                                        <a aria-label="TypeScript" href="https://developer.mozilla.org/pt-BR/docs/Web/TypeScript" rel="noopener" target="_blank"><img alt="Logo TypeScript" loading="lazy" src="./img/typescript.png" /></a>
+                                        <a aria-label="JavaScript" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" rel="noopener" target="_blank"><img alt="Logo JavaScript" loading="lazy" src="./img/javascript.png" /></a>
+                                        <a aria-label="Bitbucket" href="https://bitbucket.org/product/" rel="noopener" target="_blank"><img alt="Logo Bitbucket" loading="lazy" src="./img/bitbucket.png" /></a>
+                                        <a aria-label="Bitbucket" href="https://www.docker.com/" rel="noopener" target="_blank"><img alt="Logo Docker" loading="lazy" src="./img/docker.png" /></a>
+                                        <a aria-label="JavaScript" href="https://angular.dev/" rel="noopener" target="_blank"><img alt="Logo JavaScript" loading="lazy" src="./img/angular.png" /></a>
+                                        <a aria-label="Oracle" href="https://www.oracle.com/" rel="noopener" target="_blank"><img alt="Logo Oracle" class="expand" loading="lazy" src="./img/oracle.png" /></a>
+                                        <a aria-label="Tailwind css" href="https://tailwindcss.com/" rel="noopener" target="_blank"><img alt="Logo Tailwind css" loading="lazy" src="./img/tailwind-css.svg" /></a>
+                                        <a aria-label="Swegger" href="https://www.swagger.com/" rel="noopener" target="_blank"><img alt="Logo Swegger" loading="lazy" src="./img/swagger.svg" /></a>
+                                    </div>
+                                </div>
+                                <span class="buton text-center"><a back="&#xf1d8;" data-scroll-nav="4" front="Contato" href="#"></a></span>
+                                <span class="buton buton-bord text-center"><a back="&#xf019;" download="CV.pdf" front="Currículo" href="./docs/cvdaniel.pdf"></a></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input id="form_email" type="email" name="temail" placeholder="E-mail *" required
-                      aria-required="true">
-                  </div>
+            </section>
+            <section class="resume bg-img fade-element fade-in-up" data-background="img/b5.jpg" data-overlay-dark="8" data-scroll-index="2" data-stellar-background-ratio="0.5">
+                <div class="container">
+                    <div class="row">
+                        <div class="container">
+                            <h2 class="titulo-secundario">Formação & Experiência</h2>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="item mb-md50">
+                                        <h5 class="titulo-left"><i class="fas fa-graduation-cap mr-2"></i>Formação Acadêmica</h5>
+                                        <ul>
+                                            <li class="fade-element fade-in-up list-item-white-circle">
+                                                <h6>Instituto INFNET</h6>
+                                                <p class="infoDev">Pós-Graduação em Desenvolvimento Full-Stack</p>
+                                            </li>
+                                            <li class="fade-element fade-in-up list-item-white-circle">
+                                                <h6>Universidade Estácio de Sá</h6>
+                                                <p class="infoDev">Cursando Ciências da Computação</p>
+                                            </li>
+                                            <li class="fade-element fade-in-up list-item-white-circle">
+                                                <h6>Universidade Estácio de Sá</h6>
+                                                <p class="infoDev">Bacharel em Sistemas da Informação</p>
+                                            </li>
+                                            <li class="fade-element fade-in-up list-item-white-circle">
+                                                <h6>INSTITUTO INFNET</h6>
+                                                <p class="infoDev">INFNET TRAINING - Desenvolvedor Front-End</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="item">
+                                        <h5 class="titulo-left"><i class="fas fa-briefcase mr-2"></i>Experiência Profissional</h5>
+                                        <ul>
+                                            <li class="fade-element fade-in-up list-item-white-circle">
+                                                <h6>GLR CONSULTORIA EM SISTEMAS (POPULIS)</h6>
+                                                <p class="infoDev">Desenvolvedor Front-End Trainee<br />Junho/2024 - Atual</p>
+                                            </li>
+                                            <li class="fade-element fade-in-up list-item-white-circle">
+                                                <h6>GLR CONSULTORIA EM SISTEMAS (POPULIS)</h6>
+                                                <p class="infoDev">Estágio Desenvolvedor Web<br />Abril/2023 - Junho/2024</p>
+                                            </li>
+                                            <li class="fade-element fade-in-up list-item-white-circle">
+                                                <h6>AGÊNCIA VIRTA</h6>
+                                                <p class="infoDev">DESENVOLVEDOR FRONT-END FREELANCER<br />Outubro/2022 - Janeiro/2023</p>
+                                            </li>
+                                            <li class="fade-element fade-in-up list-item-white-circle">
+                                                <h6>Projetos Freelancer / Acadêmicos</h6>
+                                                <p class="infoDev">Desenvolvimento de sistemas completos como:</p>
+                                                <p>Raio-x Setorial, PrimeTech E-commerce, Plataforma Freelancer, Awesome Invest, Espaço Kids, Regale Restaurante, Websites (Cardoso Restaurante, Studio Yoga).</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <input id="form_subject" type="text" name="tassunto" placeholder="Assunto" required
-                      aria-required="true">
-                  </div>
+            </section>
+            <section class="portfolio section-padding fade-element fade-in-up" data-scroll-index="3" id="portifolio">
+                <div class="container">
+                    <div class="row secao-potfolio full-width">
+                        <h2 class="titulo-portfolio">Meu Portfólio</h2>
+                    </div>
+                    <div class="row fade-element fade-in-up">
+                        <div class="col-lg-6">
+                            <div class="content">
+                                <h3 class="titulo titulo-left">PrimeTech E-commerce</h3>
+                                <p style="text-align: justify;"><strong>Descrição do Projeto:</strong> é um robusto sistema web de comércio eletrônico especializado na <strong>venda de produtos de informática</strong>. Ele foi concebido para <strong>listar produtos</strong>, <strong>gerenciar inventário</strong> e oferecer ao administrador controle total de estoque. Já o cliente pode <strong>consultar</strong>, <strong>comprar</strong> e <strong>avaliar</strong> itens com fluidez, enquanto o sistema
+                                    mantém registro completo de <em>solicitações, transações, métodos de pagamento, avaliações e entregas</em>.
+                                </p>
+                                <p style="text-align: justify;"><strong>Back-End</strong>: <strong>Node.js</strong> com <strong>Express.js</strong>. <strong>MongoDB</strong> para persistência de dados. Integração de pagamentos via <strong>PagSeguro</strong>. Documentação interativa em <strong>Swagger</strong>. Testes <strong>unitários</strong> e de <strong>integração</strong> com <strong>Jest</strong> e <strong>Supertest</strong>.</p>
+                                <p style="text-align: justify;"><strong>Front-End:</strong>: <strong>React.js</strong> em JavaScript
+                                    Interface responsiva com <strong>Material&nbsp;UI</strong> &amp; <strong>Styled-components</strong>
+                                    Gerenciamento de estado via <strong>Redux</strong></p>
+                                <p style="text-align: justify;"><strong>Aplicativo Móvel</strong>
+                                    <strong>React&nbsp;Native</strong> em JavaScript Formulários dinâmicos com <strong>React&nbsp;Hook&nbsp;Form</strong>
+                                    Arquitetura de estado unificada usando <strong>Redux</strong>
+                                    Estilização consistente via <strong>Styled-components</strong>
+                                A combinação dessas tecnologias garante um ecossistema <strong>seguro</strong>, <strong>performático</strong> e <strong>escalável</strong>, entregando a melhor experiência de compra para o usuário final.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="apresentacao-img mb-md50">
+                                <div class="video-container">
+                                    <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen src="https://www.youtube.com/embed/bjIXVd6zn9Y" title="Projeto Primetech Ecommerce"></iframe>
+                                </div>
+                            </div>
+                            <p class="download">
+                                <a href="https://github.com/danielbarbozadasilva/ecommerce-nodejs-api" rel="noopener" target="_blank"><i class="devicon-github-original"></i>Back-end</a>
+                                <a href="https://github.com/danielbarbozadasilva/ecommerce-frontend-react" rel="noopener" target="_blank"><i class="devicon-github-original"></i>Front-end</a>
+                                <a href="https://github.com/danielbarbozadasilva/ecommerce-react-native" rel="noopener" target="_blank"><i class="devicon-github-original"></i>Aplicativo</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <textarea id="form_message" name="tmsg" placeholder="Digite a mensagem *" rows="4" required
-                      aria-required="true"></textarea>
-                  </div>
+            </section>
+            <div class="fade-element fade-in-up" id="container-background">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="content">
+                                <h3 class="titulo-secundario titulo-left">Projeto Freelancer</h3>
+                                <p style="text-align: justify">
+                                    <strong>Descrição do projeto:</strong> O projeto <strong>Freelancer</strong> consiste em um <strong>sistema web</strong> que tem como intuito ajudar as pessoas a encontrarem <strong>profissionais freelancers</strong> para desenvolver uma <strong>solução</strong> de que precisão. Como também a auxiliar o profissional freelancer a encontrar novos <strong>clientes</strong>. O Sistema tem como objetivo <strong>listar os serviços</strong> oferecidos pelos
+                                    profissionais e efetuar o <strong>gerenciamento</strong> destes. Possibilitando ao profissional o <strong>controle</strong> dos mesmos. O cliente poderá também <strong>consultar</strong>, <strong>adquirir</strong> e <strong>avaliar serviços</strong>. O Sistema garante o total controle dos <strong>registros de solicitações</strong>, <strong>transações</strong> e <strong>avaliações</strong>.<br /><br />
+                                    No backend foi desenvolvida uma <strong>API Rest</strong> utilizando os princípios do <strong>SOLID</strong> com <strong>TYPESCRIPT</strong>, <strong>NODEJS</strong>, <strong>EXPRESSJS</strong> e banco de dados <strong>MONGODB</strong>. Estou utilizando também o <strong>Docker</strong>. Integração com o <strong>Amazom S3</strong>, <strong>Emailtrap</strong> e com a plataforma de pagamentos <strong>Stripe</strong>. Documentação utilizando o
+                                    <strong>Swagger</strong> e o <strong>Jest</strong> nos <strong>testes unitários</strong>.<br /><br />
+                                    O Front-End foi desenvolvido utilizando o <strong>ReactJs</strong> em <strong>TYPESCRIPT</strong> com <strong>layout responsivo</strong>, <strong>Material UI</strong>, <strong>Styled-components</strong> e <strong>Reduxjs/toolkit</strong>.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="apresentacao-img mb-md50">
+                                <div class="video-container">
+                                    <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/MS3qCxZEBds?si=fnhaMMGsawf4_419" title="YouTube video - Projeto Freelancer"></iframe>
+                                </div>
+                            </div>
+                            <p class="download">
+                                <a style="color: white" href="https://github.com/danielbarbozadasilva/freelancer-service-backend-solid" rel="noopener" target="_blank"><i class="devicon-github-original"></i>Back-end</a>
+                                <a style="color: white" href="https://github.com/danielbarbozadasilva/freelancer-service-frontend" rel="noopener" target="_blank"><i class="devicon-github-original"></i>Front-end</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <span class="buton">
-                      <button class="button" type="submit" front="Enviar" back="&#xf1d8;"
-                        aria-label="Enviar formulário"></button>
-                    </span>
-                  </div>
-                </div>
-              </div>
             </div>
-          </form>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <p>&copy; Todos os direitos reservados - Daniel Barboza da Silva.</p>
-  </footer>
-  <script src="js/jquery-3.6.0.min.js" defer></script>
-  <script src="js/bootstrap.min.js" defer></script>
-  <script src="js/scrollIt.min.js" defer></script>
-  <script src="js/javascript-animations.js" defer></script>
-  <script src="js/scripts.js" defer></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () { const e = new IntersectionObserver((t, o) => { t.forEach(n => { if (n.isIntersecting) { n.target.classList.add("animated"); o.unobserve(n.target); } }); }, { threshold: .1 }); document.querySelectorAll(".fade-element").forEach(t => { e.observe(t); }); });
-  </script>
-</body>
+            <div class="fade-element fade-in-up">
+                <div class="container container-projetos">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="content">
+                                <h3 class="titulo titulo-left">Awesome Invest</h3>
+                                <p style="text-align: justify">
+                                    <strong>Descrição do projeto:</strong> O Projeto <strong>AWESOME INVEST</strong> é um <strong>sistema de gestão financeira</strong> criado para fins de estudo. O Sistema tem o objetivo de <strong>listar os ativos de mercado</strong> e efetuar o <strong>gerenciamento</strong> destes, possibilitando a <strong>consulta</strong> e <strong>compra</strong> por parte do cliente. Além de garantir que o <strong>Administrador</strong> realize
+                                    <strong>depósitos em contas de clientes</strong> e a <strong>consulta das transações realizadas</strong>. A <strong>API</strong> foi desenvolvida utilizando o <strong>NodeJs</strong>, <strong>ExpressJs</strong> e Banco de dados <strong>MySql</strong> utilizando o <strong>ORM Sequelize</strong>. Documentação utilizando o <strong>Swagger</strong>. <strong>Testes unitários e de integração</strong> utilizando o <strong>Jest</strong> e <strong>Supertest</strong>. O
+                                    <strong>Front-End</strong> foi desenvolvido utilizando o <strong>ReactJs</strong> em <strong>Javascript</strong> com <strong>layout responsivo</strong>, <strong>Material UI</strong>, <strong>Styled-components</strong> e <strong>Redux</strong>. O <strong>Aplicativo</strong> foi desenvolvido utilizando o <strong>React Native</strong> em <strong>TypeScript</strong> com <strong>Expo</strong>, <strong>Redux</strong> e <strong>Styled-components</strong>.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="apresentacao-img mb-md50">
+                                <div>
+                                    <script async src="https://fast.wistia.com/embed/medias/o4oh1sr92g.jsonp"></script>
+                                    <script async src="https://fast.wistia.com/assets/external/E-v1.js"></script>
+                                    <div class="wistia_responsive_padding" style="padding: 56.25% 0 0 0; position: relative">
+                                        <div class="wistia_responsive_wrapper" style="height: 100%; left: 0; position: absolute; top: 0; width: 100%">
+                                            <div class="wistia_embed wistia_async_o4oh1sr92g seo=false videoFoam=true" style="height: 100%; position: relative; width: 100%">
+                                                <div class="wistia_swatch" style="height: 100%; left: 0; opacity: 0; overflow: hidden; position: absolute; top: 0; width: 100%">
+                                                    <img alt="Awesome Invest Apresentação" aria-hidden="true" onload="this.parentNode.style.opacity=1;" src="https://fast.wistia.com/embed/medias/o4oh1sr92g/swatch" style="filter: blur(5px); object-fit: contain; width: 100%" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="download" style="margin-bottom: 100px;">
+                                <a href="https://github.com/danielbarbozadasilva/financial-system-backend.git" rel="noopener" target="_blank"><i class="devicon-github-original"></i>Back-end</a>
+                                <a href="https://github.com/danielbarbozadasilva/financial-system-frontend" rel="noopener" target="_blank"><i class="devicon-github-original"></i>Front-end</a>
+                                <a href="https://github.com/danielbarbozadasilva/app-financial-React-Native" rel="noopener" target="_blank"><i class="devicon-github-original"></i>Aplicativo</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fade-element fade-in-up" id="container-background">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="content">
+                                <h3 class="titulo-secundario titulo-left">Projeto Espaço Kids</h3>
+                               <body>
 
+    <p style="text-align: justify;">
+        O <strong>Sistema ESPAÇO KIDS</strong> tem como proposta otimizar e agilizar o <strong>processo de inscrição de participantes</strong> nas oficinas oferecidas mensalmente, assim como gerenciar o <strong>cadastro das oficinas</strong> oferecidas pelo estabelecimento. Além de fornecer o acesso ao <strong>usuário administrador</strong> a <strong>lista de participantes inscritos</strong> em cada oficina.
+    </p>
+    <p style="text-align: justify;">
+        A <strong>API</strong> foi desenvolvida utilizando o <strong>NodeJs</strong>, <strong>ExpressJs</strong> e Banco de dados <strong>MySql</strong>.
+    </p>
+    <p style="text-align: justify;">
+        O <strong>Front-End</strong> foi desenvolvido utilizando o <strong>ReactJs</strong> em <strong>Javascript</strong> com layout <strong>responsivo</strong>, <strong>Material UI</strong>, <strong>Styled-components</strong> e <strong>Redux</strong>.
+    </p>
+
+</body>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="apresentacao-img mb-md50">
+                                <div class="video-container">
+                                    <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/pI2Q6lTFFA8?si=kR_GeZFfIcsYv59t" title="Projeto Espaço Kids"></iframe>
+                                </div>
+                            </div>
+                            <p class="download">
+                                <a style="color: white" href="https://github.com/danielbarbozadasilva/projeto-espaco-kids-frontend-daniel" rel="noopener" target="_blank"><i class="devicon-github-original"></i>Front-end</a>
+                                <a style="color: white" href="https://github.com/danielbarbozadasilva/projeto-3-backend-espa-o-kids" rel="noopener" target="_blank"><i class="devicon-github-original"></i>Back-end</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fade-element fade-in-up">
+                <div class="container container-projetos">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="content">
+                                <h3 class="titulo titulo-left">Regale - gestão de confeitarias</h3>
+                                <p><strong>Descrição do projeto:</strong><br /><div>
+
+    <p style="text-align: justify;">
+        O Sistema permite ao <strong>Administrador</strong> gerenciar <strong>categorias</strong>, <strong>fornecedores</strong> e <strong>clientes</strong>. O proprietário da confeitaria pode gerenciar seus <strong>produtos</strong>, assim como favoritá-los. O cliente possui a opção de <strong>avaliar os fornecedores</strong>. Além disso, o Sistema possui uma <strong>tela inicial</strong> que permite ao público em geral navegar facilmente através de <strong>filtros de busca</strong> entre categorias, produtos e fornecedores.
+    </p>
+    <p style="text-align: justify;">
+        A <strong>API</strong> foi desenvolvida utilizando o <strong>NodeJs</strong>, <strong>ExpressJs</strong> e Banco de dados <strong>MongoDB</strong>.
+    </p>
+    <p style="text-align: justify;">
+        O <strong>Front-End</strong> foi desenvolvido utilizando o <strong>ReactJs</strong> em <strong>Javascript</strong> com layout <strong>responsivo</strong>, <strong>Material UI</strong>, <strong>Styled-components</strong> e <strong>Redux</strong>.
+    </p>
+
+</div></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="apresentacao-img mb-md50">
+                                <div class="video-container">
+                                    <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen src="https://www.youtube.com/embed/1Y5TIxucliU" title="Regale - Gestão de confeitarias"></iframe>
+                                </div>
+                            </div>
+                            <p class="download" style="margin-bottom: 100px;">
+                                <a href="https://github.com/danielbarbozadasilva/system-management-backend.git" rel="noopener" target="_blank"><i class="devicon-github-original"></i>Back-end</a>
+                                <a href="https://github.com/danielbarbozadasilva/system-management-frontend.git" rel="noopener" target="_blank"><i class="devicon-github-original"></i>Front-end</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space fade-element fade-in-up" id="container-background">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="content">
+                                <h3 class="titulo-secundario titulo-left">Website - Cardoso Restaurante</h3>
+                                <p><strong>Descrição do projeto:</strong><br />O Projeto visa divulgar o estabelecimento comercial "Restaurante Cardoso" através de um Site onepage. Apresentando ao público a história, o local e o cardápio. Este Website é um one page mobile first, criado a partir de um estudo de caso.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="apresentacao-img mb-md50">
+                                <div class="video-container">
+                                    <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen src="https://www.youtube.com/embed/YiXayOKYG5o" title="Cardoso Restaurante"></iframe>
+                                </div>
+                            </div>
+                            <p class="download">
+                                <a style="color: white" href="https://github.com/danielbarbozadasilva/web-site-restaurant-cardoso" rel="noopener" target="_blank"><i class="devicon-github-original"></i>Repositório</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container container-projetos fade-element fade-in-up">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="content">
+                            <h3 class="titulo titulo-left">Website - Studio Yoga</h3>
+                            <p><strong>Descrição do projeto:</strong><br />O Projeto visa divulgar o studio de yoga através de um Site onepage. Apresentando ao público os horários, o professores e o livros. Este Website é um one page mobile first, criado a partir de um estudo de caso.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="apresentacao-img mb-md50">
+                            <div class="video-container">
+                                <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Y5A1jIZFw-Q?si=lEYyLqbBPIr1IG3M" title="Studio Yoga"></iframe>
+                            </div>
+                        </div>
+                        <p class="download">
+                            <a href="https://github.com/danielbarbozadasilva/web-site-restaurant-cardoso" rel="noopener" target="_blank"><i class="devicon-github-original"></i>Repositório</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <section class="secao-formulario-contato section-padding bg-img fade-element fade-in-up" data-background="img/b5.jpg" data-overlay-dark="8" data-scroll-index="4" id="contato-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="contato-cabecalho full-width">
+                            <h2 class="titulo-portfolio">Entre em contato</h2>
+                        </div>
+                        <form action="envia-email.php" class="form-contato full-width" id="formulario" method="post">
+                            <div class="contato-messages"></div>
+                            <div class="form-controls-wrapper">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input aria-required="true" id="form_name" name="tnome" placeholder="Nome completo *" required type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input aria-required="true" id="form_email" name="temail" placeholder="E-mail *" required type="email" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input aria-required="true" id="form_subject" name="tassunto" placeholder="Assunto" required type="text" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea aria-required="true" id="form_message" name="tmsg" placeholder="Digite a mensagem *" required rows="4"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <span class="buton">
+                                                <button aria-label="Enviar formulário" back="&#xf1d8;" class="button" front="Enviar" type="submit"></button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>&copy; Todos os direitos reservados - Daniel Barboza da Silva.</p>
+        </footer>
+        <script defer src="js/jquery-3.6.0.min.js"></script>
+        <script defer src="js/bootstrap.min.js"></script>
+        <script defer src="js/scrollIt.min.js"></script>
+        <script defer src="js/javascript-animations.js"></script>
+        <script defer src="js/scripts.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const e = new IntersectionObserver(
+                    (t, o) => {
+                        t.forEach((n) => {
+                            if (n.isIntersecting) {
+                                n.target.classList.add("animated");
+                                o.unobserve(n.target);
+                            }
+                        });
+                    },
+                    { threshold: 0.1 },
+                );
+                document.querySelectorAll(".fade-element").forEach((t) => {
+                    e.observe(t);
+                });
+            });
+        </script>
+    </body>
 </html>
