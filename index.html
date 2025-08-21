@@ -22,6 +22,7 @@
         <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css" rel="stylesheet" />
         <link as="style" href="./css/bootstrap.min.css" onload="this.rel='stylesheet'" rel="preload" />
         <link as="style" href="./css/style.css" onload="this.rel='stylesheet'" rel="preload" />
+        <link as="style" href="./css/daniel-ai-chatbot.css" onload="this.rel='stylesheet'" rel="preload" />
         <noscript>
             <link href="./css/bootstrap.min.css" rel="stylesheet" />
             <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,500,600,700,800&display=swap" rel="stylesheet" />
@@ -46,7 +47,9 @@
                 font-style: normal;
                 font-weight: 400;
             }
-        </style>
+
+</style>
+
     </head>
 
     <body>
@@ -490,10 +493,19 @@
             <p>&copy; Todos os direitos reservados - Daniel Barboza da Silva.</p>
         </footer>
         <script defer src="js/jquery-3.6.0.min.js"></script>
+        <script>
+  jQuery(function($){
+    var $w = $('#daniel-ai-widget');
+    if ($w.length && window.DANIEL_AI) window.DANIEL_AI.mountUI($w);
+  });
+</script>
+
         <script defer src="js/bootstrap.min.js"></script>
         <script defer src="js/scrollIt.min.js"></script>
         <script defer src="js/javascript-animations.js"></script>
         <script defer src="js/scripts.js"></script>
+        <script src="js/daniel-ai-chatbot.js"></script>
+
         <script>
             document.addEventListener("DOMContentLoaded", function () {
                 const e = new IntersectionObserver(
